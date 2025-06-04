@@ -83,6 +83,13 @@
       document.getElementById('result').textContent = `${result.toFixed(6)} ${to}`;
     }
   </script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js')
+      .then(() => console.log('Service Worker registered successfully'))
+      .catch(err => console.log('Service Worker registration failed:', err));
+  }
+</script>
 </body>
 </html>
 
