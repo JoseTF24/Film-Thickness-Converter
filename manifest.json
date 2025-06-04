@@ -1,0 +1,19 @@
+{
+  "name": "Terraflex Film Thickness Converter",
+  "short_name": "Film Converter",
+  "start_url": "converter.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0047AB",
+  "icons": [
+    {
+      "src": "https://i.imgur.com/rVpCm5V.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+  {
+    "src": "https://i.imgur.com/0CGSnBr.png",
+    "sizes": "504x504",
+    "type": "image/png"
+  }
+]
